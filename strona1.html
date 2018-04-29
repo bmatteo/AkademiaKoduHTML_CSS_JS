@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="strona1.css">
+	</head>
+	<body>
+			<div id="header" class="headerClass">Nagłówek</div>
+			<div id="menu">
+				<div>
+				<a href="/podstrona1">Start</a>
+				<a href="/podstrona2">Aktualności</a>
+				<a href="/podstrona3" style="font-size: 30px">O nas</a>
+				<a href="/podstrona4">Kontakt</a>
+				</div>	
+			</div>
+			<div id="formWrapper">
+				<div>Logowanie</div>
+				<form action="/create-user" method="POST" id="form1">
+					Login: <input type="text">
+					Hasło: <input type="password">
+					<select>
+						<option>A</option>
+						<option>B</option>
+						<option>C</option>
+					</select>
+					<textarea id="ta1">
+					</textarea>
+					<input type="submit" value="Zapisz">
+				</form>
+			</div>
+	</body>
+</html>
