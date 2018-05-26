@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="strona1.css">
+		 <script src="script1.js"></script>
+		<script src="jquery-3.3.1.js"></script>
 	</head>
 	<body>
 			<div id="header" class="headerClass">Nagłówek</div>
@@ -15,7 +17,7 @@
 				</div>	
 			</div>
 			<div id="formWrapper">
-				<div>Logowanie</div>
+				<div id="loginText" class="class1">Logowanie</div>
 				<form action="/create-user" method="POST" id="form1">
 					Login: <input type="text">
 					Hasło: <input type="password">
@@ -29,5 +31,6 @@
 					<input type="submit" value="Zapisz">
 				</form>
 			</div>
+		<button onclick="click1()">Przycisk</button>
 	</body>
 </html>
